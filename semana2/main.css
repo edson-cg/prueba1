@@ -1,0 +1,12 @@
+.titulo {
+    color: red;
+}
+
+.tabla {
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+.fila {
+    border: 2px solid red;
+}
