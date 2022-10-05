@@ -21,6 +21,7 @@ figure {
 
 .image1:hover {
     transform: scale(1.2);
+    box-shadow: -0.01rem -0.01rem 3rem 1.5rem white;
 }
 
 .article {
