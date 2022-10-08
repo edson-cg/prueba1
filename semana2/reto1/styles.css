@@ -53,6 +53,8 @@ nav {
 .section {
     margin-left: 1.5rem;
     margin-right: 3rem;
+    z-index: 1;
+    margin-top: 7rem;
 }
 
 /* Estilos en el primer article */
