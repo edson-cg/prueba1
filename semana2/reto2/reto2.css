@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: .5rem;
+}
+
+img {
+    width: 18rem;
+    border-radius: .5rem;
+}
+
+.color-titulo {
+    color: hsl(0, 0%, 100%);
+    margin: 1rem 0 1rem 0;
+}
+
+.color-parrafo {
+    color: hsl(215, 32%, 27%);
+    font-size: 1rem;
+}
+
+.card-text {
+    width: 18rem;
+    font-family: 'Rubik Dirt', cursive;
+    line-height: 1.3rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.central {
+    display: flex;
+    gap: 5.5rem;
+    margin-top: 1rem;
+}
+
+.imagen1{
+    width: 1rem;
+    height: 1rem;
+}
+
+.div1 {
+    display: flex;
+    gap: .5rem;
+}
+
+.imagen2{
+    width: 1rem;
+    height: 1rem;
+}
+
+.div2 {
+    display: flex;
+    gap: .3rem;
+}
+
+.color-eth {
+    color: hsl(178, 100%, 50%);
+}
+
+.color-fecha {
+    color: hsl(215, 32%, 27%);
+}
+
+.div3 {
+    display: flex;
+    width: 18rem;
+    margin-top: 1rem;
+    border-top: 2px solid hsl(215, 32%, 27%);
+    padding-top: 1rem;
+}
+
+.avatar {
+    width: 2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.parrafo1 {
+    padding: .5rem 0 .5rem .5rem;
+}
+
+.parrafo2 {
+    color: hsl(215, 32%, 27%);
+    font-weight: bold;
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+}
