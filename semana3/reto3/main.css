@@ -1,0 +1,250 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Arial';
+}
+
+/* Primera section */
+
+.section-1 {
+    position: relative;
+}
+
+.section-1 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    top: 10rem;
+    left: 51rem;
+    font-size: 5rem;
+    line-height: 74px;
+    color: #FFFFFF;
+}
+
+.section-1 h2 {
+    position: absolute;
+    bottom: 23rem;
+    left: 9rem;
+    font-size: 3rem;
+    width: 39rem;
+    border-radius: 1rem;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    text-align: center;
+    background: rgba(114, 153, 254, 0.5);
+    color: #FFFFFF;
+}
+
+/* Segunda section */
+
+.section-2 {
+    background-color: #7299FE;
+    height: 100%;
+}
+
+.section-2 h2{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #1D06A7;
+    line-height: 41px;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+p {
+    padding: 0 3rem 0 3rem;
+    color: #F8F8F8;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.section-2 h3 {
+    display: inline-block;
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+    background-color: #D16FFF;
+    margin: 3rem 0 5rem 3rem;
+    padding: 1.7rem 5rem 1.7rem 5rem;
+    font-size: 2rem;
+    color: #FFFFFF;
+}
+
+/* Tercera section */
+
+.section-3 {
+    background-color: #9122FF;
+    height: 100%;
+}
+
+.section-3 h2 {
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 3.5rem;
+    color: #26CC4B;
+    line-height: 41px;
+    padding-bottom: 4rem;
+}
+
+.flex-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding-bottom: 8rem;
+}
+
+.flex-skills h3 {
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.container-medidor {
+    position: relative;
+    width: 56rem;
+    height: 2rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    background-color: #FFFFFF;
+}
+
+.medidor {
+    width: 28rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: #57EFF9;
+}
+
+/* Cuarta section */
+
+.section-4 {
+    display: flex;
+    background-color: #FFD233;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-4 h2 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: 3.5rem;
+    color: #00AD84;
+    line-height: 41px;
+}
+
+.container-figure {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70rem;
+    gap: 2rem;
+    margin-bottom: 8rem;
+}
+
+.section-4 figure img {
+    width: 15rem;
+}
+
+/* Quinta section */
+
+.section-5 {
+    background-color: #3F4E62;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-5 h2 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: 3.5rem;
+    color: #ADFF28;
+    line-height: 41px;
+}
+
+.container-figure2 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 3rem;
+    margin-bottom: 10rem;
+}
+
+.section-5 figure img {
+    width: 22rem;
+}
+
+.figure-centrar {
+    display: flex;
+    align-items: center;
+}
+
+/* Sexta section */
+
+.section-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1687A0;
+    width: 100%;
+}
+
+.section-6 h2 {
+    padding-top: 4rem;
+    font-size: 3.5rem;
+    color: #FF1B1B;
+    line-height: 41px;
+    padding-bottom: 4rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+input {
+    width: 50rem;
+    height: 5.5rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    color: #7A7A7A;
+}
+
+.section-6 div {
+    display: flex;
+    gap: 3rem;
+}
+
+textarea {
+    margin-top: 3rem;
+    width: 103rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #7A7A7A;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 4.5rem;
+}
+
+button {
+    width: 14rem;
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #233451;
+    border: none;
+    margin-bottom: 8rem;
+    color: #FFFFFF;
+}
