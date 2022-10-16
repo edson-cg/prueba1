@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;;
+}
+
+.menu-listado li {
+    list-style: none;
+}
+
+.menu-contenedor {
+    max-width: 150rem;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-contenedor {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.menu-contenedor-img {
+    position: relative;
+    padding-bottom: 6rem;
+}
+
+.menu-img-cuatro {
+    position: absolute;
+    z-index: 4;
+    left: 5rem;
+}
+
+.menu-img-tres{
+    position: absolute;
+    z-index: 3;
+    left: 4rem;
+}
+.menu-img-dos {
+    position: absolute;
+    z-index: 2;
+    left: 3rem;
+}
+
+.menu-img-uno {
+    position: absolute;
+    z-index: 1;
+    left: 2rem;
+}
+
+.menu-logo {
+    position: absolute;
+    z-index: 5;
+    left: 7rem;
+    top: 1.5rem;
+}
+
+.menu-listado {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+.listado-uno {
+    color: #832FDA;
+}
+
+.listado-dos {
+    color: #00CF95;
+}
+
+/* Primera section */
+
+.contenedor-sobreMi {
+    max-width: 150rem;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobreMi-abajo {
+    display: flex;
+}
+
+.contenedor-principal {
+    display: flex;
+    margin-left: 11rem;
+    margin-right: 11rem;
+    padding-top: 5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.sobreMi h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.sobreMi h2 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.sobreMi h3 {
+    font-size: 6rem;
+    margin-bottom: 2rem;
+    color: #00CF95;
+}
+
+.sobreMi p {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    width: 50rem;
+    border-left: .5rem solid #00CF95;
+    padding-left: 3rem;
+}
+figure img {
+    width: 43rem;
+}
+
+.sobreMi-abajo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobreMi-abajo div {
+    font-size: 3rem;
+    margin-right: 9rem;
+}
+
+.sobreMi-abajo button {
+    font-size: 2rem;
+    padding: 2rem 4.5rem 2rem 4.5rem;
+    background-color: #832FDA;
+    color: white;
+    border: none;
+}
+
+.enlaces-particion {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    margin-right: 3rem;
+}
+
+/* Armado de flecha */
+
+.flecha {
+    max-width: 150rem;
+    background-color: darkgray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-flecha {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.contenedor-flecha img {
+    width: 8rem;
+    margin-bottom: 2rem;
+}
+
+.contenedor-flecha p {
+    font-size: 2rem;
+    color: #00CF95;
+}
+
+/* Segundo section */
+
+.contenedor-portafolio {
+    max-width: 150rem;
+    background-color: violet;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-portafolio h2 {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    color: #0098EF;
+}
+
+.portafolio-img {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    gap: 5rem;
+    padding-bottom: 10rem;
+}
