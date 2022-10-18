@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Rubik', sans-serif;
+
+}
+
+body {
+    background-color: hsl(223, 19%, 93%);
+}
+
+.contenedor-principal {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-secundario {
+    background-color: white;
+    display: flex;
+    padding: 2rem;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contenedor-titulo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contenedor-titulo img {
+    width: 2rem;
+}
+
+.contenedor-titulo h1 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.contenedor-titulo .span {
+    margin-left: auto;
+    color: hsl(238, 40%, 52%);
+    font-weight: 700;
+}
+
+.contenedor-control {
+    padding: .5rem;
+    background-color: hsl(223, 19%, 93%);
+    max-height: 6.3rem;
+    border-radius: 1rem;
+}
+
+.contenedor-control p {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: hsl(238, 40%, 52%);
+}
+
+.contenedor-control .numero {
+    font-weight: 700;
+}
+
+.lorem {
+    line-height: 1.5rem;
+}
+
+.contenedor-low {
+    display: flex;
+}
+
+.linea {
+    margin: auto 2.5rem auto 2.5rem;
+    border-left: .2rem solid hsl(211, 10%, 45%, .2);
+    height: 25rem;
+}
+
+.orden-low {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    gap: 5rem;
+    padding: 2rem;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    background-color: white;
+}
+
+.form img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.form textarea {
+    width: 70rem;
+    height: 10rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    color: hsl(211, 10%, 45%, .9);
+    font-family: 'Rubik', sans-serif;
+}
+
+.form button {
+    font-size: 1.3rem;
+    background-color: hsl(238, 40%, 52%);
+    border: none;
+    border-radius: 1rem;
+    width: 12rem;
+    height: 4rem;
+    color: white;
+    font-weight: 500;
+}
+
+.lorem .span2 {
+    font-weight: 700;
+    color: hsl(238, 40%, 52%);
+}
+
+.contenedor-titulo .you {
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    padding: 4px;
+}
+
+.contenedor-titulo .delete {
+    margin-left: auto;
+    color: red;
+    font-weight: 700;
+}
+
+.contenedor-secundario .contenedor-control .atenuar {
+    color: hsl(211, 10%, 45%, .5);
+}
