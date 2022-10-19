@@ -92,6 +92,7 @@ body {
     display: flex;
     gap: 5rem;
     padding: 2rem;
+    padding-left: 1rem;
     gap: 1rem;
     margin-bottom: 2rem;
     background-color: white;
