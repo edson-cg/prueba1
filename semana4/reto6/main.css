@@ -49,6 +49,7 @@ body {
     margin-left: auto;
     color: hsl(238, 40%, 52%);
     font-weight: 700;
+    cursor: pointer;
 }
 
 .contenedor-control {
@@ -119,6 +120,7 @@ body {
     height: 4rem;
     color: white;
     font-weight: 500;
+    cursor: pointer;
 }
 
 .lorem .span2 {
@@ -136,8 +138,10 @@ body {
     margin-left: auto;
     color: red;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .contenedor-secundario .contenedor-control .atenuar {
     color: hsl(211, 10%, 45%, .5);
+    cursor: pointer;
 }
