@@ -1,0 +1,43 @@
+.container-section {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-section-1 {
+    background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+    text-align: center;
+    font-family: 'Arial';
+    line-height: 2rem;
+}
+
+.container-section-1 h1 {
+    padding-top: 4rem;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.container-section-1 p {
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    color: rgba(255, 255, 255, 0.78);
+}
+
+.img-flex {
+    display: flex;
+}
+
+.container-section .img-fondo {
+    position: absolute;
+    width: 100%;
+}
+
+.iconos {
+    display: flex;
+    gap: 2rem;
+    margin-right: 1rem;
+}

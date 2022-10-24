@@ -1,0 +1,153 @@
+.container-section-2 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-section .container-section-2 .buscador {
+    display: flex;
+    background-color: #F4F4F4;;
+    border-radius: 1rem;
+    padding: 1rem 0 1rem 2rem;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container-section-2 .buscador p, i {
+    color: #1F3F68;
+    opacity: 0.6;
+    font-family: Arial;
+}
+
+.titulo-1 {
+    font-size: 1.5rem;
+    color: #356EAD;
+    opacity: 0.8;
+    margin-bottom: 2rem;
+    font-family: 'Helvetica';
+}
+
+.container-interno-1 {
+    display: flex;
+}
+
+.container-izquierdo {
+    width: 46%;
+}
+
+.container-izquierdo h3 {
+    font-size: 2.7rem;
+    margin-bottom: 1.5rem;
+    line-height: 3.5rem;
+    font-family: 'Helvetica';
+    color: #1F3F68;
+}
+
+.container-izquierdo .p-1 {
+    color: #000000;
+    opacity: 0.6;
+    line-height: 1.5rem;
+    margin-right: 1rem;
+    margin-bottom: 2.5rem;
+    font-family: Arial;
+}
+
+.container-izquierdo-low {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.container-izquierdo-low .p-2 {
+    margin-bottom: 1.5rem;
+    font-family: 'Helvetica';
+    color: #1F3F68;
+    font-weight: bold;
+}
+
+.container-izquierdo-low .p-2-2 {
+    font-family: Arial;
+    color: #1F3F68;
+    opacity: 0.4;
+}
+
+.container-img-1 {
+    position: relative;
+    width: 60%;
+}
+
+.img-1-1 {
+    position: absolute;
+    width: 100%;
+}
+
+.container-section-3 {
+    display: flex;
+    gap: 3rem;
+}
+
+.container-individual img {
+    margin-bottom: 1rem;
+}
+
+.container-individual h3 {
+    margin-bottom: 1.5rem;
+    color: #1F3F68;
+    font-family: 'Helvetica';
+}
+
+.p-3 {
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 2rem;
+    font-family: 'Abel';
+}
+
+
+.titulo-inferior {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    text-align: end;
+    padding: 1.5rem;
+    color: #356EAD;
+    opacity: 0.8;
+    margin-bottom: 4rem;
+}
+
+/* ------------------------------ */
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.horizontal {
+    display: flex;
+    gap: 2rem;
+}
+
+.horizontal .altura {
+    height: 12.5rem;
+}
+
+.low-low {
+    margin-bottom: 2rem;
+}
+
+/* ------------------------------- */
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+.arrows-1 {
+    display: flex;
+    gap: 1rem;
+    color: #356EAD;
+    font-family: 'Arial';
+}

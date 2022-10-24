@@ -1,0 +1,19 @@
+@import './variables';
+@import './mixins';
+
+
+body {
+    background-color: $color-primary;
+}
+
+.success {
+    @include alertita;
+}
+
+.info {
+    @include alertita($bg: $color-secundary);
+}
+
+@include generate-icons("phone","telefono.jpg",rgb(252,135,143),400px);
+@include generate-icons("mail","email.png",rgb(252,135,143),400px);
+@include generate-icons("laptop","laptop.jpg",rgb(252,135,143),400px);

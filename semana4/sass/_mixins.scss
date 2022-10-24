@@ -1,0 +1,17 @@
+@mixin alertita ($bg: green, $text-color: white) {
+    background-color: $bg;
+    color: $text-color;
+    padding: $padding-1;
+    border-radius: 1rem;
+    font-size: 3rem;
+}
+
+@mixin generate-icons($name,$icon,$color,$size){
+    .div-icon-#{$name}{
+        background: url("./img/#{$icon}");
+        border: solid 2px $color;
+        background-size: cover;
+        width: $size;
+        height: $size;
+    }
+}
