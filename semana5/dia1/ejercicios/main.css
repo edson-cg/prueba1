@@ -1,0 +1,24 @@
+button {
+    font-size: 15px;
+    background-color: rgb(223, 219, 219);
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+input {
+    margin-left: 30px;
+}
+
+.resultado {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.espacio1,.espacio2,.espacio3,.espacio4,.espacio5,.espacio6,.espacio7,.espacio8 {
+    height: 35px;
+}
+
+.ejercicio1,.ejercicio2,.ejercicio3,.ejercicio4,.ejercicio5,.ejercicio6,.ejercicio7,.ejercicio8 {
+    font-size: 20px;
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Ejercicios</title>
+</head>
+<body>
+    <main>
+        <div>
+            <h2>1. Implementar un algoritmo que reciba 2 argumentos y los sume, el resultado se deberá imprimir en pantalla.</h2>
+            <form action="">
+                <input type="number" placeholder="Ingresa un numero" id="numero1">
+                <input type="number" placeholder="Ingresa un numero" id="numero2">
+                <button type="button" onclick="datos()">Sumar</button>
+            </form>
+            <p class="resultado">Resultado:</p>
+            <div class="espacio1">
+                <p class="ejercicio1"></p>
+            </div>
+        </div>
+
+        <div>
+            <h2>2. Registrar el ingreso de notas de 4 examenes y calcular el promedio de estos.</h2>
+            <form action="">
+                <input type="number" placeholder="Ingresa una nota" id="nota1">
+                <input type="number" placeholder="Ingresa una nota" id="nota2">
+                <input type="number" placeholder="Ingresa una nota" id="nota3">
+                <input type="number" placeholder="Ingresa una nota" id="nota4">
+                <button type="button" onclick="promedio()">Promedio</button>
+            </form>
+            <p class="resultado">Nota final:</p>
+            <div class="espacio2">
+                <p class="ejercicio2"></p>
+            </div>
+        </div>
+
+        <div>
+            <h2>3. Calcular el área de un rectángulo</h2>
+            <form action="">
+                <input type="number" placeholder="Ingresa el largo en metros" id="largo">
+                <input type="number" placeholder="Ingresa el ancho en metros" id="ancho">
+                <button type="button" onclick="rectangulo()">Area del rectángulo</button>
+            </form>
+            <p class="resultado">El área en m² es:</p>
+            <div class="espacio3">
+                <p class="ejercicio3"></p>
+            </div>
+        </div>
+
+        <div>
+            <h2>4.  Calcular el área de un triángulo</h2>
+            <form action="">
+                <input type="number" placeholder="Ingresa la base" id="base">
+                <input type="number" placeholder="Ingresa la altura" id="altura">
+                <button type="button" onclick="triangulo()">Area del triangulo</button>
+            </form>
+            <p class="resultado">El área es:</p>
+            <div class="espacio4">
+                <p class="ejercicio4"></p>
+            </div>
+        </div>
+
+        <div>
+            <h2>5.  Calcular el área de un circunferencia</h2>
+            <form action="">
+                <input type="number" placeholder="Ingresa el radio" id="radio">
+                <button type="button" onclick="circunferencia()">Area de la circunferencia</button>
+            </form>
+            <p class="resultado">El área es:</p>
+            <div class="espacio5">
+                <p class="ejercicio5"></p>
+            </div>
+        </div>
+
+        <div>
+            <h2>6. Determinar el sueldo semanal de un trabajador basándose en sus horas trabajadas y su salario de hora hombre</h2>
+            <form action="">
+                <input type="number" placeholder="Ingresa el salario" id="sal">
+                <input type="number" placeholder="Ingresa los días" id="di">
+                <input type="number" placeholder="Ingresa las horas al día" id="ho">
+                <button type="button" onclick="calculo()">Sueldo</button>
+            </form>
+            <p class="resultado">El sueldo es:</p>
+            <div class="espacio6">
+                <p class="ejercicio6"></p>
+            </div>
+        </div>
+
+        <div>
+            <h2>7. Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero. Para cada pedido, tiene que proporcionar las medidas de la tela en pulgadas, pero ella generalmente las tiene en metros. Realice un algoritmo para ayudar a resolver el problema, determinando cuantas pulgadas debe pedir con base en los metros que requiere. (1 pulgada = 0.0254 m).</h2>
+            <form action="">
+                <input type="number" placeholder="Ingresa los metros" id="met">
+                <button type="button" onclick="pulgadas()">Convertir a Pulgadas</button>
+            </form>
+            <p class="resultado">Las pulgadas son:</p>
+            <div class="espacio7">
+                <p class="ejercicio7"></p>
+            </div>
+        </div>
+
+        <div>
+            <h2>8. Una empresa importadora desea determinar cuántos dólares puede adquirir con equis cantidad de dinero peruano.</h2>
+            <form action="">
+                <input type="number" placeholder="Ingresa la cantidad en soles" id="sol">
+                <input type="number" placeholder="Ingresa el precio del dolar" id="dol">
+                <button type="button" onclick="dolar()">Cambio a dolar</button>
+            </form>
+            <p class="resultado">El resultado es:</p>
+            <div class="espacio8">
+                <p class="ejercicio8"></p>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
