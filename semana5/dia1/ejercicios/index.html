@@ -30,28 +30,28 @@
         <div>
             <h2>1. Implementar un algoritmo que reciba 2 argumentos y los sume, el resultado se deberá imprimir en pantalla.</h2>
             <form action="">
-                <input type="number" placeholder="Ingresa un numero" id="numero1">
-                <input type="number" placeholder="Ingresa un numero" id="numero2">
+                <input type="number" placeholder="  Ingresa un numero" id="numero1">
+                <input type="number" placeholder="  Ingresa un numero" id="numero2">
                 <button type="button" onclick="datos()">Sumar</button>
             </form>
             <p class="resultado">Resultado:</p>
-            <div class="espacio1">
-                <p class="ejercicio1"></p>
+            <div class="espacio1 esp">
+                <p class="ejercicio1 eje"></p>
             </div>
         </div>
 
         <div>
             <h2>2. Registrar el ingreso de notas de 4 examenes y calcular el promedio de estos.</h2>
             <form action="">
-                <input type="number" placeholder="Ingresa una nota" id="nota1">
-                <input type="number" placeholder="Ingresa una nota" id="nota2">
-                <input type="number" placeholder="Ingresa una nota" id="nota3">
-                <input type="number" placeholder="Ingresa una nota" id="nota4">
+                <input type="number" placeholder="  Ingresa una nota" id="nota1">
+                <input type="number" placeholder="  Ingresa una nota" id="nota2">
+                <input type="number" placeholder="  Ingresa una nota" id="nota3">
+                <input type="number" placeholder="  Ingresa una nota" id="nota4">
                 <button type="button" onclick="promedio()">Promedio</button>
             </form>
             <p class="resultado">Nota final:</p>
-            <div class="espacio2">
-                <p class="ejercicio2"></p>
+            <div class="espacio2 esp">
+                <p class="ejercicio2 eje"></p>
             </div>
         </div>
 
@@ -63,8 +63,8 @@
                 <button type="button" onclick="rectangulo()">Area del rectángulo</button>
             </form>
             <p class="resultado">El área en m² es:</p>
-            <div class="espacio3">
-                <p class="ejercicio3"></p>
+            <div class="espacio3 esp ">
+                <p class="ejercicio3 eje"></p>
             </div>
         </div>
 
@@ -76,8 +76,8 @@
                 <button type="button" onclick="triangulo()">Area del triangulo</button>
             </form>
             <p class="resultado">El área es:</p>
-            <div class="espacio4">
-                <p class="ejercicio4"></p>
+            <div class="espacio4 esp ">
+                <p class="ejercicio4 eje"></p>
             </div>
         </div>
 
@@ -88,8 +88,8 @@
                 <button type="button" onclick="circunferencia()">Area de la circunferencia</button>
             </form>
             <p class="resultado">El área es:</p>
-            <div class="espacio5">
-                <p class="ejercicio5"></p>
+            <div class="espacio5 esp">
+                <p class="ejercicio5 eje"></p>
             </div>
         </div>
 
@@ -102,8 +102,8 @@
                 <button type="button" onclick="calculo()">Sueldo</button>
             </form>
             <p class="resultado">El sueldo es:</p>
-            <div class="espacio6">
-                <p class="ejercicio6"></p>
+            <div class="espacio6 esp">
+                <p class="ejercicio6 eje"></p>
             </div>
         </div>
 
@@ -114,8 +114,8 @@
                 <button type="button" onclick="pulgadas()">Convertir a Pulgadas</button>
             </form>
             <p class="resultado">Las pulgadas son:</p>
-            <div class="espacio7">
-                <p class="ejercicio7"></p>
+            <div class="espacio7 esp">
+                <p class="ejercicio7 eje"></p>
             </div>
         </div>
 
@@ -127,13 +127,120 @@
                 <button type="button" onclick="dolar()">Cambio a dolar</button>
             </form>
             <p class="resultado">El resultado es:</p>
-            <div class="espacio8">
-                <p class="ejercicio8"></p>
+            <div class="espacio8 esp">
+                <p class="ejercicio8 eje"></p>
+            </div>
+        </div>
+
+        <div>
+            <h2>9. Una empresa que contrata personal requiere determinar la edad de las personas que solicitan trabajo, pero cuando se les realiza la entrevista sólo se les pregunta el año en que nacieron.</h2>
+            <form action="">
+                <input type="number" placeholder="Ingresa su año de nacimiento" id="nac">
+                <button type="button" onclick="contrato()">Edad</button>
+            </form>
+            <p class="resultado">La edad es:</p>
+            <div class="espacio9 esp">
+                <p class="ejercicio9 eje"></p>
+            </div>
+        </div>
+
+        <div class="div10">
+            <h2>10. Se tiene el nombre y la edad de tres personas. Se desea saber el nombre y la edad de la persona de menor edad.</h2>
+            <div>
+                <h3>Primera persona:</h3>
+                <input type="text" placeholder="Ingresa el nombre" required id="name1">
+                <input type="number" placeholder="Ingresa la edad" id="age1">
+            </div>
+            <div>
+                <h3>Segunda persona:</h3>
+                <input type="text" placeholder="Ingresa el nombre" required id="name2">
+                <input type="number" placeholder="Ingresa la edad" id="age2">
+            </div>
+            <div class="marg">
+                <h3>Tercero persona:</h3>
+                <input type="text" placeholder="Ingresa el nombre" required id="name3">
+                <input type="number" placeholder="Ingresa la edad" id="age3">
+            </div>
+            <div class="cent">
+                <button type="button" onclick="menor()">Edad</button>
+            </div>
+            <p class="resultado">La edad es:</p>
+            <div class="espacio10 esp">
+                <p class="ejercicio10 eje"></p>
+            </div>
+        </div>
+
+        <div>
+            <h2>11. Se les dará un bono por antiguedad a los empleados de una tienda. Si tienen un año, se les dará $100; si tienen 2 años, $200, y asi sucesivamente hasta los 5 años. Para los que tengan más de 5, el bono será de $1000. Realice un algoritmo y represéntelo que permita determinar el bono que recibirá un trabajador.</h2>
+            <div>
+                <input type="number" placeholder="Ingrese sus años de trabajo" required id="trabajo">
+                <button type="button" onclick="servicio()">Bono</button>
+            </div>
+            <p class="resultado">La edad es:</p>
+            <div class="espacio11 esp">
+                <p class="ejercicio11 eje"></p>
+            </div>
+        </div>
+
+        <div>
+            <h2>12. Un profesor tiene un salario inicial de $1500, y recibe un incremento de 10% anual durante 6 años. ¿Cuál es su salario al cabo de 6 años? ¿Qué salario ha recibido en cada uno de los 6 años? Realice el algoritmo y representa la solución, utilizando el ciclo apropiado.</h2>
+            <div>
+                <h3>Ingrese el salario de: $1500</h3>
+                <input type="number" placeholder="Ingrese el salario" required id="sala">
+                <button type="button" onclick="ganancia()">Salario</button>
+            </div>
+            <p class="resultado">Las ganancias son:</p>
+            <div class="espacio12 esp">
+                <p class="ejercicio12 eje"></p>
+            </div>
+        </div>
+
+        <div>
+            <h2>13. Realice un algoritmo para leer las calificaciones de N alumnos y determine el número de aprobados y reprobados.</h2>
+            <div>
+                <input type="number" placeholder="Ingrese una nota" required id="not">
+                <input type="number" placeholder="Ingrese una nota" required id="not1">
+                <input type="number" placeholder="Ingrese una nota" required id="not2">
+                <input type="number" placeholder="Ingrese una nota" required id="not3">
+                <button type="button" onclick="notas()">Evaluar</button>
+            </div>
+            <p class="resultado">El resultado es:</p>
+            <div class="espacio13 esp">
+                <p class="ejercicio13 eje"></p>
+            </div>
+            <div>
+                <button onclick="forma()">Evaluar (Segunda forma)</button>
+                <p class="resultado">El resultado es:</p>
+                <div class="espacio13-2 esp">
+                    <p class="ejercicio13-2 eje"></p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2>14. Una compañía, fabrica focos de colores (verdes, blancos y rojos). Se desea contabilizar de un lote de N focos (matrices), el número de focos de cada color que hay en existencia.</h2>
+            <div>
+                <button onclick="focos()">Evaluar (Segunda forma)</button>
+                <p class="resultado">El resultado es:</p>
+                <div class="espacio14 esp">
+                    <p class="ejercicio14 eje"></p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2>15. Realice un algoritmo para determinar si una persona puede votar con base en su edad en las proximas elecciones.</h2>
+            <div>
+                <input type="number" placeholder="Ingrese su edad" required id="ed">
+                <button type="button" onclick="voto()">Evaluar</button>
+            </div>
+            <p class="resultado">El resultado es:</p>
+            <div class="espacio15 esp">
+                <p class="ejercicio15 eje"></p>
             </div>
         </div>
 
     </main>
-
 
     <script src="./script.js"></script>
 </body>
